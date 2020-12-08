@@ -3,14 +3,22 @@
 # date: 2020-12-08
 # object: Reconstructs a mesh from the trained DeepSDF model.
 
+import argparse
 import torch
 import deepSDF_model
 import trimesh
 from skimage import measure
 
-# Load the model
+# Parse command line arguments
 
-PATH = "trained_models/horse-1-model-10.pt"
+parser = argparse.ArgumentParser(description="Generate mesh from trained DeepSDF model")
+parser.add_argument("--net", "-n", default="trained_models/cube-model-5.pt",
+    help="path to trained model")
+args = parser.parse_args()
+
+PATH = args.net
+
+# Load the model
 
 input_size = 3
 hidden_size = 512

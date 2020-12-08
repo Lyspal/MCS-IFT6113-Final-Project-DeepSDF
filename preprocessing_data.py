@@ -3,6 +3,10 @@
 # date: 2020-12-08
 # object: Functions to preprocess data for DeepSDF.
 
+# This script uses third-party classes and functions from the `mesh-to-sdf`
+# project by marian42. Only classes and functions related to data preprocessing
+# have been included in the `third-party` directory.
+
 import json
 import trimesh
 import numpy as np

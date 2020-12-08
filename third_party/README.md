@@ -1,6 +1,6 @@
 # Use of third-party code
 
-The following directory contains pieces of code taken and slightly adapted from third-party sources, excluding common libraries. We are using this code for testing purpose as a mean to try some parts of our self-implemented code.
+The following directory contains pieces of code taken and slightly adapted from third-party sources, excluding common libraries. We are using this code for testing purpose as a mean to try some parts of our neural network self-implemented code.
 
 ## Content
 

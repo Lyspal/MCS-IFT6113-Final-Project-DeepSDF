@@ -2,9 +2,9 @@
 # program: surface_point_cloud.py
 # date: 
 # object: The following code is taken and slightly adapted from the "mesh-to-sdf"
-# DeepSDF implementation by marian42 for the purpose of testing only. This solely
-# contains classes and functions associated with data preprocessing. The original
-# code is available at https://github.com/marian42/mesh_to_sdf
+# DeepSDF implementation by marian42. This solely contains classes and functions
+# associated with data preprocessing. The original code is available at
+# https://github.com/marian42/mesh_to_sdf
 
 import math
 import numpy as np
