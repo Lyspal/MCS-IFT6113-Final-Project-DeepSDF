@@ -3,7 +3,6 @@
 Final project on DeepSDF for the course IFT6113 - Modélisation géométrique et analyse de formes.
 
 Author: Sylvain Laporte  
-Matricule: C3874
 
 Due date: December 8th, 2020
 Presentation date: December 8th, 2020, 11h10
